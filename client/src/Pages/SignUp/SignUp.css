@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+/* .sign_up{
+    background-image: url(https://www.evangadi.com/themes/humans/assets/images/misc/bg-svg-f.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+} */
+ .btn{
+     background-color: #fe8402;
+     color: white;
+     font-size: 13px;
+ }
+
+ .right_item{
+     text-align: left !important;
+     color: #4B456F !important;
+ }
+
+ h1{
+     font-weight: bold;
+ }
+
+ .section_wrapper{
+     
+     width: 100%;
+     /* margin: 10px; */
+ }
+
+ .left{
+     background-color: white;
+     text-align: center;
+     margin: 25px ;
+     margin-top: 90px !important;
+     border-radius: 7px;
+     padding-top: 30px;
+     color:#4B456F
+
+ }
+
+ .input{
+     margin-bottom: 8px;
+     width: 290px;
+     height: 38px;
+     padding-left: 10px;
+     font-size: 13px;
+     border: 0.5px solid #4B456F ;
+     border-radius: 3px;
+
+ }
+.par_two{
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+.agree_btn{
+    width: 290px;
+    height: 40px; 
+    margin-bottom: 25px; 
+    border-radius: 3px;
+    border: none;
+    background-color:  #516cf0;
+    color: white;
+    
+}
+
+a{
+    color: #fe8402;
+}
+
+.last_par{
+    padding-bottom: 40px;
+}
+
+/* right starts here  */
+.right{
+    margin: 25px;
+    color:#4B456F
+    
+}
+.about{
+    color: #fe8402;
+    margin-bottom: 0px;
+    
+}
+
+.how_button{
+    background-color: #fe8402;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.right_par{
+    color: #656565;
+    font-size: 12px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* media starts here  */
+
+@media screen and (min-width: 768px) {
+   .section_wrapper{
+       width: 600px;
+       margin: 0 auto;
+       display: flex;
+       margin-top: 50px;
+
+}
+.input{
+    margin-bottom: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 230px;
+    height: 35px;
+    padding-left: 10px;
+
+}
+
+.agree_btn{
+    width: 230px;
+}
+ .par_two{
+    /* font-size: 12px; */
+    /* margin-top: 120px; */
+    /* padding-bottom: 0%; */
+   
+}
+.right {
+    padding-top: 30px; 
+}
+/* .visibilityEye {
+    padding-bottom: 25px !important;
+} */
+   
+  }
+
+  @media screen and (min-width: 1000px){
+    .section_wrapper{
+        width: 850px;
+        margin: 0 auto;
+        display: flex;
+ }
+ .input{
+     margin-bottom: 8px;
+     margin-right: 20px;
+     margin-left: 20px;
+     width: 280px;
+     height: 40px;
+     padding-left: 10px;
+ 
+ }
+ 
+ .agree_btn{
+     width: 230px;
+ }
+ .flex_input{
+     display: flex;
+ }
+ .flex_input input {
+     width: 100%;
+ }
+  /* .flex_input input1 {
+    margin-right: 3px !important;
+ } */
+.right{
+ margin-top: 180px; 
+}
+.left {
+    margin-top: 100px !important;
+}
+.about{
+    margin-bottom: 20px;
+    
+}
+.visibilityEye {
+    padding-top: 15px;
+}
+  }
+
+
